@@ -4,6 +4,9 @@ using System.Threading.Tasks;
 
 namespace Catalog.API.Repositories
 {
+    /// <summary>
+    /// Database access Interface for Product repository.
+    /// </summary>
     public interface IProductRepository
     {
         Task<IEnumerable<Product>> GetProducts();
@@ -14,9 +17,9 @@ namespace Catalog.API.Repositories
 
         Task<IEnumerable<Product>> GetProductByCatagory(string categoryName);
 
-        Task CreateProdut(Product product);
+        Task CreateProduct(Product product);
 
-        Task<bool> UpdateProdut(Product product);
+        Task<bool> UpdateProduct(Product product);
 
         Task<bool>  DeleteProduct(string id);
     }

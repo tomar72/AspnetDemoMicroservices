@@ -3,6 +3,9 @@ using MongoDB.Bson.Serialization.Attributes;
 
 namespace Catalog.API.Entities
 {
+    /// <summary>
+    /// Database data access object.
+    /// </summary>
     public class Product
     {
         [BsonId]

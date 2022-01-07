@@ -7,6 +7,10 @@ namespace Catalog.API.Data
 {
     internal class CatalogContextSeed
     {
+        /// <summary>
+        /// Default seeding of Mongo database collection, if it is empty.
+        /// </summary>
+        /// <param name="productCollection"></param>
         public static void SeedData(IMongoCollection<Product> productCollection)
         {
             bool existProduct = productCollection.Find(p => true).Any();

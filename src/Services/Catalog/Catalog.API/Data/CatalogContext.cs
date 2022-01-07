@@ -4,6 +4,10 @@ using MongoDB.Driver;
 
 namespace Catalog.API.Data
 {
+    /// <summary>
+    /// MongoDB database catalog context implementation.
+    /// Creates and maintains database configuration to manage connection to specific collection in database.
+    /// </summary>
     public class CatalogContext : ICatalogContext
     {
         public CatalogContext(IConfiguration configuration)

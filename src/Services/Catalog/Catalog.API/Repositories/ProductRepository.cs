@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace Catalog.API.Repositories
 {
+    /// <summary>
+    /// MongoDB Database access interface implementation for Product repository.
+    /// </summary>
     public class ProductRepository : IProductRepository
     {
         private readonly ICatalogContext _context;
@@ -16,7 +19,7 @@ namespace Catalog.API.Repositories
             _context = context ?? throw new ArgumentNullException(nameof(context));
         }
 
-        public async Task CreateProdut(Product product)
+        public async Task CreateProduct(Product product)
         {
             await _context.Products.InsertOneAsync(product);
         }
@@ -51,7 +54,7 @@ namespace Catalog.API.Repositories
             return await _context.Products.Find(p => true).ToListAsync();
         }
 
-        public async Task<bool> UpdateProdut(Product product)
+        public async Task<bool> UpdateProduct(Product product)
         {
             var updateResult = await _context.Products.ReplaceOneAsync(filter: g => g.Id == product.Id, replacement:product);
             return updateResult.IsAcknowledged && updateResult.ModifiedCount > 0;
