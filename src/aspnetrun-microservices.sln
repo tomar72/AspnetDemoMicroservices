@@ -10,6 +10,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{C6214E16-DD11-471A-B92F-F9E09EAA850E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitStatus", "UnitStatus", "{3F47074A-ECD2-49ED-8A34-66204C58E2CA}"
+	ProjectSection(SolutionItems) = preProject
+		Services\UnitStatus\UnitStatus.API\UnitStatusAPI.cd = Services\UnitStatus\UnitStatus.API\UnitStatusAPI.cd
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitStatus.API", "Services\UnitStatus\UnitStatus.API\UnitStatus.API.csproj", "{54716EB5-593B-41EF-A3CF-6B17D78B5240}"
 EndProject

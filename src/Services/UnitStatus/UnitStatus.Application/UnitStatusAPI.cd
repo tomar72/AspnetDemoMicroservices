@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="UnitStatus.Application.Features.UnitStatus.Queries.GetUnitStatusesList.GetUnitStatusesListQuery">
+    <Position X="7.5" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Features\UnitStatus\Queries\GetUnitStatusesList\GetUnitStatusesListQuery.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnitStatus.Application.Features.UnitStatus.Queries.GetUnitStatusesList.GetUnitStatusesListQueryHandler">
+    <Position X="10.75" Y="5.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAIAEAAAAAAAAAA=</HashCode>
+      <FileName>Features\UnitStatus\Queries\GetUnitStatusesList\GetUnitStatusesListQueryHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnitStatus.Application.Features.UnitStatus.Queries.GetUnitStatusesList.UnitStatusesVm">
+    <Position X="14.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Features\UnitStatus\Queries\GetUnitStatusesList\UnitStatusesVm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitStatus.Application.Mappings.MappingProfile">
+    <Position X="6" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mappings\MappingProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitStatus.Application.Models.Email">
+    <Position X="1" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIABAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Email.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitStatus.Application.Models.EmailSettings">
+    <Position X="2.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAgAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\EmailSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitStatus.Domain.Common.EntityBase">
+    <Position X="1" Y="7.5" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnitStatus.Domain.Common.ValueObject">
+    <Position X="1" Y="5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnitStatus.Domain.Entities.UnitStatus">
+    <Position X="3.75" Y="8" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnitStatus.Application.Features.UnitStatus.Commands.SetUnitStatus.SetUnitStatusCommand">
+    <Position X="7.5" Y="7.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Features\UnitStatus\Commands\SetUnitStatus\SetUnitStatusCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnitStatus.Application.Features.UnitStatus.Commands.SetUnitStatus.SetUnitStatusCommandHandler">
+    <Position X="10.75" Y="7.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAABAAAQIAAAAAIAEAAAAAAAAAA=</HashCode>
+      <FileName>Features\UnitStatus\Commands\SetUnitStatus\SetUnitStatusCommandHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnitStatus.Application.Features.UnitStatus.Commands.SetUnitStatus.SetUnitStatusCommandValidator">
+    <Position X="7.5" Y="9" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Features\UnitStatus\Commands\SetUnitStatus\SetUnitStatusCommandValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="UnitStatus.Application.Contracts.Infrastructure.IEmailService">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Contracts\Infrastructure\IEmailService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="UnitStatus.Application.Contracts.Persistence.IAsyncRepository&lt;T&gt;">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAEAAAAAAAgAAAAAIAAAIIA=</HashCode>
+      <FileName>Contracts\Persistence\IAsyncRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="UnitStatus.Application.Contracts.Persistence.IUnitStatusRepository">
+    <Position X="4.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\Persistence\IUnitStatusRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

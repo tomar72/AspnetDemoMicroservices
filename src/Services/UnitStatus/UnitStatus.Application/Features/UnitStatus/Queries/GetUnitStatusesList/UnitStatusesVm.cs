@@ -1,5 +1,8 @@
 ﻿namespace UnitStatus.Application.Features.UnitStatus.Queries.GetUnitStatusesList
 {
+    /// <summary>
+    /// UnitStatus View Model
+    /// </summary>
     public class UnitStatusesVm
     {
         public int Id { get; protected set; }

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="UnitStatus.Application.Features.UnitStatus.Queries.GetUnitStatusesList.GetUnitStatusesListQueryHandler">
+    <Position X="9.75" Y="5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAIAEAAAAAAAAAA=</HashCode>
+      <FileName>Features\UnitStatus\Queries\GetUnitStatusesList\GetUnitStatusesListQueryHandler.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_mapper" />
+      <Field Name="_unitstatusRepository" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnitStatus.Application.Features.UnitStatus.Queries.GetUnitStatusesList.UnitStatusesVm">
+    <Position X="17.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Features\UnitStatus\Queries\GetUnitStatusesList\UnitStatusesVm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitStatus.Application.Mappings.MappingProfile">
+    <Position X="17.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mappings\MappingProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitStatus.Application.Models.Email">
+    <Position X="5.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIABAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Email.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitStatus.Application.Models.EmailSettings">
+    <Position X="5.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAgAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\EmailSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitStatus.Application.Features.UnitStatus.Queries.GetUnitStatusesList.GetUnitStatusesListQuery">
+    <Position X="9.75" Y="7" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Features\UnitStatus\Queries\GetUnitStatusesList\GetUnitStatusesListQuery.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="AutoMapper.IMapper" Collapsed="true">
+    <Position X="13.25" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="UnitStatus.Application.Contracts.Persistence.IUnitStatusRepository" Collapsed="true">
+    <Position X="14.25" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\Persistence\IUnitStatusRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="UnitStatus.Application.Contracts.Persistence.IAsyncRepository&lt;T&gt;" Collapsed="true">
+    <Position X="14.25" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAEAAAAAAAgAAAAAIAAAIIA=</HashCode>
+      <FileName>Contracts\Persistence\IAsyncRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
